@@ -7,10 +7,10 @@ This **Vim Plugin** enhances the experience of editing [Fish Shell][] scripts.
 
 Notice
 ------
-[Dag's plugin][] didn't work for me as intended, so I forked it, applied 
+[Dags plugin][] didn't work for me as intended, so I forked it, applied 
 patches and added some customization. 
 
-[Dag's plugin]: https://github.com/dag/vim-fish
+[Dags plugin]: https://github.com/dag/vim-fish
 
 Features
 --------
@@ -34,8 +34,10 @@ Edit your `~/.vimrc` file adding the following to the
 
 vimplug:
 `Plug 'fingerblaster/vim-fish'`
+
 vundle:
 `Plugin 'fingerblaster/vim-fish'`
+
 patogen or similar:
 `Bundle 'fingerblaster/vim-fish'`
 

@@ -2,12 +2,14 @@ vim-fish
 ========
 
 This **Vim Plugin** enhances the experience of editing [Fish Shell][] scripts.
+
 [fish]: https://github.com/fish-shell/fish-shell
 
 Notice
 ------
 [Dag's plugin][] didn't work for me as intended, so I forked it, applied 
 patches and added some customization. 
+
 [Dag's plugin]: https://github.com/dag/vim-fish
 
 Features
@@ -49,10 +51,12 @@ syntax enable
 filetype plugin indent on
 ```
 If you are already using [VimPLug][] this step is automatically done.
+
 [VimPlug]: https://github.com/junegunn/vim-plug
 
 Make sure you have a [POSIX][] compatible shell; many Vim plugins rely on it. 
 Although I myself don't use one and `/bin/fish` is my daily driver.
+
 [POSIX]: https://en.wikipedia.org/wiki/POSIX
 
 ```vim

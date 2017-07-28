@@ -3,14 +3,14 @@ vim-fish
 
 This **Vim Plugin** enhances the experience of editing [Fish Shell][] scripts.
 
-[fish]: https://github.com/fish-shell/fish-shell
+[Fish Shell]: https://github.com/fish-shell/fish-shell
 
 Notice
 ------
-[Dags plugin][] didn't work for me as intended, so I forked it, applied 
+[Dag's plugin][] didn't work for me as intended, so I forked it, applied 
 patches and added some customization. 
 
-[Dags plugin]: https://github.com/dag/vim-fish
+[Dag's plugin]: https://github.com/dag/vim-fish
 
 Features
 --------

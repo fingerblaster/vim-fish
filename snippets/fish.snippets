@@ -1,0 +1,63 @@
+# ----------------------------------------------
+#
+#  Written By: Mario García H
+#  https://fingerblaster.github.io 
+#  License: CC0
+#
+#  Created:	Thu Jul 27 2017, 10:23:23 -0500
+#  Modified:	Fri Jul 28 2017, 06:53:56 -0500
+#
+# ----------------------------------------------
+
+snippet be
+	begin
+		${0:#block}
+	end
+
+snippet fun
+	function ${1:`!v empty(expand('%')) ? 'name' : expand('%:t:r')`}
+		${0:#command}
+	end
+
+snippet pr
+	printf "${1:#your ad here}${2:\n}"
+	$0
+
+snippet prc print with colors
+	printf "\033[38:5;$1m${2:#your ad here}\033[m${3:\n}"
+	$0
+
+snippet if
+	if ${1:condition}
+		${0:#command}
+	end
+
+snippet te test
+	if test ${1:expression}
+		${0:#command}
+	end
+
+snippet elif
+	else if ${1:condition}
+		${0:#command}
+
+snippet sw switch
+	switch ${1:value}
+		case ${2:match}
+			${0:#block}
+	end
+
+snippet de default
+	case '*'
+		${0:echo}
+
+snippet for
+	for ${1:var} in ${2:values}
+		${0:#command}
+	end
+
+snippet wh while
+	while ${1:condition}
+		${0:#command}
+	end
+

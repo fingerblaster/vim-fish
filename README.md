@@ -7,8 +7,9 @@ This **Vim Plugin** enhances the experience of editing [Fish Shell][] scripts.
 
 Notice
 ------
-[Dag's plugin][] didn't work for me as intended, so I forked it, applied 
-patches and added some customization. 
+[Dag's plugin][] didn't work for me as intended on vim 8.0+, so I forked it, 
+added some customization and did it publicly so everyone could benefit
+from this. 
 
 [Dag's plugin]: https://github.com/dag/vim-fish
 
@@ -32,14 +33,17 @@ Install
 -------
 Edit your `~/.vimrc` file adding the following to the 
 
-vimplug:
+Vim-Plug:
 `Plug 'fingerblaster/vim-fish'`
 
-vundle:
+Vundle:
 `Plugin 'fingerblaster/vim-fish'`
 
-patogen or similar:
-`Bundle 'fingerblaster/vim-fish'`
+NeoBundle:
+`NeoBundle 'fingerblaster/vim-fish'`
+
+Pathogen or manual:
+`git clone https://github.com/fingerblaster/vim-fish ~/.vim/bundle/vim-fish`
 
 If you don't like those plugin handlers. Download and unpack the `zip` file
 inside your `~/.vim/` directory. (Not recommended for inexperienced people)

@@ -31,34 +31,36 @@ Features
 
 Install
 -------
-Edit your `~/.vimrc` file adding the following to the 
+Edit your `~/.vimrc` file adding the following to the plugin manager boot 
+routine
 
-Vim-Plug:
+- vim-plug:
 `Plug 'fingerblaster/vim-fish'`
 
-Vundle:
+- Vundle:
 `Plugin 'fingerblaster/vim-fish'`
 
-NeoBundle:
+- NeoBundle:
 `NeoBundle 'fingerblaster/vim-fish'`
 
-Pathogen or manual:
+- Pathogen or manual:
 `git clone https://github.com/fingerblaster/vim-fish ~/.vim/bundle/vim-fish`
 
-If you don't like those plugin handlers. Download and unpack the `zip` file
+If you don't like those plugin handlers, download and unpack the `zip` file
 inside your `~/.vim/` directory. (Not recommended for inexperienced people)
+I personally prefer plug, but whatever you use is just fine.
 
 Setup
 -----
 
-Enable syntax and filetype functionality, normally in your `~/.vimrc`:
+Enable syntax and filetype functionality; normally in your `~/.vimrc`:
 ```vim
 syntax enable
 filetype plugin indent on
 ```
-If you are already using [VimPLug][] this step is automatically done.
+If you are already using [vim-plug][] this step is automatically done for you.
 
-[VimPlug]: https://github.com/junegunn/vim-plug
+[vim-plug]: https://github.com/junegunn/vim-plug
 
 Make sure you have a [POSIX][] compatible shell; many Vim plugins rely on it. 
 Although I myself don't use one and `/bin/fish` is my daily driver.
